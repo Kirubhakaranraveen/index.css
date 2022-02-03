@@ -1,0 +1,48 @@
+.paris{
+    border: 1px solid red;
+    width:250px; height: 250px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 10px;
+    background-color:red;
+    box-shadow: 1px 1px black;
+    position: absolute;top: 205px;
+    position: absolute;left: 550px;
+}
+h1{
+    position: absolute;top: 90px;
+    position: absolute;left: 570px;
+}
+h1:before{
+    content: "";
+    display: block;
+    width: 120px;height: 2px;
+    background: rgba(29, 3, 3, 0.507);
+    position: absolute;left: 180px;
+    position: absolute;top: 20px;
+}
+h1:after{
+    content: "";
+    display: block;
+    width: 120px;height: 2px;
+    background: rgba(29, 3, 3, 0.507);
+    position: absolute;right: 170px;
+    position: absolute;top: 20px;
+}
+p{
+    position: absolute;top:150px;
+    position: absolute;left: 670px;
+}
+.fal{
+    position: absolute;top: 165px;
+    position: absolute;left: 630px;
+    color: red;
+}
+.fas{
+    position: absolute;bottom: 10px;
+    position: absolute;right: 20px;
+    color:black;
+}
+a{
+    text-decoration: none;
+}
